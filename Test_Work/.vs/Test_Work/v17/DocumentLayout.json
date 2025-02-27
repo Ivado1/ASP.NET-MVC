@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC49EB61-6EAE-426A-8CCB-A652C1DA0C0E}|Test_Work\\Test_Work.csproj|c:\\users\\ivan\\source\\repos\\test_work\\test_work\\views\\home\\createedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC49EB61-6EAE-426A-8CCB-A652C1DA0C0E}|Test_Work\\Test_Work.csproj|solutionrelative:test_work\\views\\home\\createedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC49EB61-6EAE-426A-8CCB-A652C1DA0C0E}|Test_Work\\Test_Work.csproj|c:\\users\\ivan\\source\\repos\\test_work\\test_work\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC49EB61-6EAE-426A-8CCB-A652C1DA0C0E}|Test_Work\\Test_Work.csproj|solutionrelative:test_work\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC49EB61-6EAE-426A-8CCB-A652C1DA0C0E}|Test_Work\\Test_Work.csproj|c:\\users\\ivan\\source\\repos\\test_work\\test_work\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC49EB61-6EAE-426A-8CCB-A652C1DA0C0E}|Test_Work\\Test_Work.csproj|solutionrelative:test_work\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\Test_Work\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Test_Work\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\Test_Work\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Test_Work\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwDAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:24:28.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\Test_Work\\Views\\Home\\CreateEdit.cshtml",
+              "RelativeDocumentMoniker": "Test_Work\\Views\\Home\\CreateEdit.cshtml",
+              "ToolTip": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\Test_Work\\Views\\Home\\CreateEdit.cshtml",
+              "RelativeToolTip": "Test_Work\\Views\\Home\\CreateEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T07:44:09.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\Test_Work\\Program.cs",
+              "RelativeDocumentMoniker": "Test_Work\\Program.cs",
+              "ToolTip": "C:\\Users\\IVAN\\source\\repos\\Test_Work\\Test_Work\\Program.cs",
+              "RelativeToolTip": "Test_Work\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T08:34:38.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

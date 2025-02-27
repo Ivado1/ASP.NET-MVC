@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Items";
+}
+
+@model List<Item>
+
+<div class="text-center">
+    <h1 class="display-4">Коммутатор</h1>
+    <br />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    id
+                </th>
+                <th>
+                    Модель
+                </th>
+                <th>
+                    ip адрес
+                </th>
+                <th>
+                    mac адрес
+                </th>
+                <th>
+                    админ
+                </th>
+                <th>
+                    серийник
+                </th>
+                <th>
+                    инвентарный N
+                </th>
+                <th>
+                    Куплен
+                </th>
+                <th>
+                    Установлен
+                </th>
+                <th>
+                    Этаж
+                </th>
+                <th>
+                    Комментарий
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach(var item in Model)
+                {
+                    <tr>                    
+                        <td>
+                            @item.id
+                        </td>
+                        <td>
+                            @item.model
+                        </td>
+                        <td>
+                            @item.ipAdress
+                        </td>
+                        <td>
+                            @item.macAdress
+                        </td>
+                        <td>
+                            @item.adminVLAN
+                        </td>
+                        <td>
+                            @item.serialNumber
+                        </td>
+                        <td>
+                            @item.inventaryNumber
+                        </td>
+                        <td>
+                            @item.buyDate
+                        </td>
+                        <td>
+                            @item.installDate
+                        </td>
+                        <td>
+                            @item.floor
+                        </td>
+                        <td>
+                            @item.comment
+                        </td>
+                        <td>
+                            CreateEditForm
+                            <a asp-action="EditItem" asp-route-id="@item.id">Изменить</a>
+                            <a asp-action="DeleteItem" asp-route-id="@item.id">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+
+</div>

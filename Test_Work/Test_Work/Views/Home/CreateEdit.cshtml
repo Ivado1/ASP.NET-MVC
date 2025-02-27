@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Добавить";
+}
+@model Test_Work.Models.Item
+
+<div class="text-center">
+    <h1 class="display-4">Добавить</h1>
+</div>
+
+<form asp-action="CreateEditForm" asp-controller="Home">
+    <input hidden class="form-control" type="number" asp-for="id"/>
+    <label>Модель</label>
+    <input class="form-control" type="text" placeholder="Модель" asp-for="model" />
+    <label>ip Adress</label>
+    <input class="form-control" type="number" placeholder="ip adress" asp-for="ipAdress" />
+    <label>mac Adress</label>
+    <input class="form-control" type="number" placeholder="mac adress" asp-for="macAdress" />
+    <label>администратор</label>
+    <input class="form-control" type="text" placeholder="администратор" asp-for="adminVLAN" />
+    <label>серийный номер</label>
+    <input class="form-control" type="number" placeholder="серийный номер" asp-for="serialNumber" />
+    <label>инвентарный номер</label>
+    <input class="form-control" type="number" placeholder="инвентарный номер" asp-for="inventaryNumber" />
+    <label>дата покупки</label>
+    <input class="form-control" type="date" asp-for="buyDate" />
+    <label>дата установки</label>
+    <input class="form-control" type="date" asp-for="installDate" />
+    <label>этаж</label>
+    <input class="form-control" type="number" placeholder="этаж" asp-for="floor" /> 
+    <label>комментарий</label>
+    <input class="form-control"type="text" placeholder="комментарий"asp-for="comment"/>
+
+    <button class="btn btn-primary" type="submit">Внести данные</button>
+
+</form>
